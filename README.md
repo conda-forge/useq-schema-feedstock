@@ -1,7 +1,7 @@
 About useq-schema
 =================
 
-Home: https://github.com/pymmcore-plus/useq-schema
+Home: https://github.com/tlambert03/useq-schema
 
 Package license: BSD-3-Clause
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/useq-schema-fee
 
 Summary: Schema for multi-dimensional microscopy experiments
 
-Development: https://github.com/pymmcore-plus/useq-schema
+Development: https://github.com/tlambert03/useq-schema
 
 Current build status
 ====================
