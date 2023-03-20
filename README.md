@@ -1,11 +1,11 @@
-About useq-schema
-=================
+About useq-schema-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/useq-schema-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/tlambert03/useq-schema
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/useq-schema-feedstock/blob/main/LICENSE.txt)
 
 Summary: Schema for multi-dimensional microscopy experiments
 
