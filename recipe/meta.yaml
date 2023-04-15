@@ -22,7 +22,7 @@ requirements:
     - hatch-vcs
   run:
     - numpy
-    - pydantic
+    - pydantic <2.0
     - python >=3.7
 
 test:
