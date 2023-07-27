@@ -24,6 +24,7 @@ requirements:
     - numpy
     - pydantic <2.0
     - python >=3.7
+    - typing-extensions
 
 test:
   imports:
