@@ -1,5 +1,5 @@
 {% set name = "useq-schema" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/useq_schema-{{ version }}.tar.gz
-  sha256: ac88b151dbca589f22b8e614ce9ffc8cb7d7af366b1c15ee527649b7d706c04e
+  sha256: 196f8a7d320c0a30abd2a09a9c3034483735bdc1033e0ee341a8d756c2fcc011
 
 build:
   noarch: python
@@ -23,6 +23,7 @@ requirements:
   run:
     - numpy
     - pydantic >=1.7
+    - pydantic-compat >=0.0.1
     - python >=3.8
     - typing-extensions
 
