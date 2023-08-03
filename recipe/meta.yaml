@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - hatchling
     - hatch-vcs
   run:
     - numpy
-    - pydantic <2.0
-    - python >=3.7
+    - pydantic >=1.7
+    - python >=3.8
     - typing-extensions
 
 test:
@@ -36,7 +36,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/tlambert03/useq-schema
+  home: https://pypi.org/project/useq-schema
   summary: Schema for multi-dimensional microscopy experiments
   dev_url: https://github.com/tlambert03/useq-schema
   license: BSD-3-Clause
