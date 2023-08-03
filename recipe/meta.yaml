@@ -23,6 +23,7 @@ requirements:
   run:
     - numpy
     - pydantic >=1.7
+    - pydantic-compat >=0.0.1
     - python >=3.8
     - typing-extensions
 
