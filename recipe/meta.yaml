@@ -1,5 +1,5 @@
 {% set name = "useq-schema" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/useq_schema-{{ version }}.tar.gz
-  sha256: c8a693f4dcf05e4a33c3665855dea35bf500bbf7bac992388cde3a19ab9314f3
+  sha256: ac88b151dbca589f22b8e614ce9ffc8cb7d7af366b1c15ee527649b7d706c04e
 
 build:
   noarch: python
@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - hatchling
     - hatch-vcs
   run:
     - numpy
-    - pydantic <2.0
-    - python >=3.7
+    - pydantic >=1.7
+    - python >=3.8
     - typing-extensions
 
 test:
@@ -36,7 +36,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/tlambert03/useq-schema
+  home: https://pypi.org/project/useq-schema
   summary: Schema for multi-dimensional microscopy experiments
   dev_url: https://github.com/tlambert03/useq-schema
   license: BSD-3-Clause
