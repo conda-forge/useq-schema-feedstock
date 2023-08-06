@@ -3,7 +3,7 @@ About useq-schema-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/useq-schema-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/tlambert03/useq-schema
+Home: https://pypi.org/project/useq-schema
 
 Package license: BSD-3-Clause
 
