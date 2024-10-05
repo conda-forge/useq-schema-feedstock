@@ -22,8 +22,7 @@ requirements:
     - hatch-vcs
   run:
     - numpy
-    - pydantic >=1.7,!=2.4.1
-    - pydantic-compat >=0.0.4
+    - pydantic >=2.6
     - python >=3.8
     - typing-extensions
 
