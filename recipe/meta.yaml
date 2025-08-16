@@ -25,6 +25,7 @@ requirements:
     - pydantic >=2.6
     - python >={{ python_min }}
     - typing-extensions
+    - shapely
 
 test:
   imports:
