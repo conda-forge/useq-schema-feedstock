@@ -1,5 +1,5 @@
 {% set name = "useq-schema" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/useq_schema-{{ version }}.tar.gz
-  sha256: 5628d5b3adde38b4baeb0a89f6fe67ca35a163444f485e13339e5c24aa22ca56
+  sha256: bac98a55559cc746ac063fc27981169fced4876f303264567d69971306c5558f
 
 build:
   noarch: python
